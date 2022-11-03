@@ -1,3 +1,5 @@
+package Searching.Binary;
+
 /*Given an array ‘pages’ of integer numbers, where ‘pages[i]’ represents the number of pages in the ‘i-th’ book. There are ‘m’ number of students, and the task is to allocate all the books to their students. 
 
 Allocate books in a way such that:
