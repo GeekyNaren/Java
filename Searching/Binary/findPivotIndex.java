@@ -17,8 +17,8 @@ public class findPivotIndex {
         return s;
     }
     public static void main(String[] args) {
-        int arr[]={3,8,10,17,1};
-        System.out.println(getPivot(arr, 5));
+        int arr[]={3,8,10,1,2};
+        System.out.println("The index of pivot: "+getPivot(arr, 5));
     }
     
 }

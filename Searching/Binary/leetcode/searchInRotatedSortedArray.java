@@ -10,7 +10,7 @@ public class searchInRotatedSortedArray {
             while(start<=end){
             if(nums[mid] == target) return mid;
             
-            if((nums[start] == nums[mid] )&& (nums[end] == nums[mid])){
+            if((nums[start] == nums[mid] ) && (nums[end] == nums[mid])){
                 start++; end--;
                 }
             
