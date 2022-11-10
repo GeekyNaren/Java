@@ -1,4 +1,6 @@
-
-public static void main(String[] args) {
+public class Hashing {
+    public static void main(String[] args) {
+        
+    }
     
 }
