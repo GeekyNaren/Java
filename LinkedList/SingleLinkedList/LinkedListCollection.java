@@ -17,7 +17,13 @@ public class LinkedListCollection {
         }
         System.out.println("null");
         
-        list.removeFirst();
+        // list.removeFirst();
+        // System.out.println(list);
+
+        // list.removeLast();
+
+        //to remove using index
+        list.remove(3);
         System.out.println(list);
     }
 
