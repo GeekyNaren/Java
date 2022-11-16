@@ -1,8 +1,12 @@
 package MockDSA.DSA2Easy;
 
+import java.util.Scanner;
+
 public class palindromeString {
     public static void main(String[] args) {
-        String str = "Hello";
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter String: ");
+        String str = sc.nextLine();
         String reverse = "";
         for(int i=str.length()-1;i>=0;i--){
             reverse+=str.charAt(i);
@@ -14,6 +18,7 @@ public class palindromeString {
         else{
             System.out.print(str+" is not palindrome");
         }
+        sc.close();
     }
 }
  
