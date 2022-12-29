@@ -49,14 +49,14 @@ public class stackImplementation {
 
     public static void main(String[] args) {
         Stack stack = new Stack();
-        stack.push(1);
-        stack.push(2);
-        stack.push(3);
-        stack.push(4);
+        Stack.push(1);
+        Stack.push(2);
+        Stack.push(3);
+        Stack.push(4);
 
-        while (!stack.isEmpty()) {
-            System.out.print(stack.peek()+" ");
-            stack.pop();
+        while (!Stack.isEmpty()) {
+            System.out.print(Stack.peek()+" ");
+            Stack.pop();
         }
     }
 }
