@@ -1,3 +1,5 @@
+package Searching.Binary;
+
 public class BinarySearch {
 
     // Method to perform binary search on a sorted array
