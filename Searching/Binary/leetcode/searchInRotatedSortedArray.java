@@ -31,14 +31,14 @@ public class searchInRotatedSortedArray {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter size: ");
+        System.out.print("Enter array size: ");
         int size = sc.nextInt();
         int nums[] = new int[size];
-        System.out.print("enter array elements: ");
+        System.out.print("Enter array elements: ");
         for(int i=0;i<size;i++){
             nums[i] = sc.nextInt();
         }
-        System.out.print("enter target to search: ");
+        System.out.print("Enter target to search: ");
         int target = sc.nextInt();
         System.out.print(target+" target found at index "+search(nums, target));
         sc.close();
